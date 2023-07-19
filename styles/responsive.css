@@ -109,6 +109,16 @@
 
 }
 
+
+.Careers-continuer{
+    padding: 10px 10px;
+    flex-direction: column;
+}
+
+.Careers-image img{
+    width: 300px;
+}
+
 /* End Online Games continuer Style */
 
 .Play-Continuer {

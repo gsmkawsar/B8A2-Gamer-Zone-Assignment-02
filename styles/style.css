@@ -395,6 +395,61 @@ font-family: 'Work Sans', sans-serif;
 /* End All Game Continuer Style */
 
 
+/* start Careers-continuer */
+.Careers-continuer{
+    padding: 0px 120px;
+    background-color:  #FF42A5 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.Careers-image img{
+    width: 600px;
+}
+
+.Careers-item h2{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.Careers-item p{
+color: #FFF;
+font-size: 15px;
+font-weight: 400;
+margin-top: 10px;
+}
+
+
+.btn-Careers{
+    color: #F948B2;
+    border-radius: 48px;
+    background: #FFF;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    margin-top: 16px;
+
+}
+
+.item-box{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px 20px 0px;
+    color: #FFF;
+    gap: 20px;
+}
+/* End Careers-continuer */
+
+
+
+
 /* Start footer section Style */
 footer{
     padding: 50px 120px;
