@@ -111,7 +111,16 @@
 
 /* End Online Games continuer Style */
 
+.Play-Continuer {
 
+    display: none;
+}
+
+
+.Play-game-Continuer {
+
+    display: none;
+}
 
 
 /* Start All Game Continuer Style */

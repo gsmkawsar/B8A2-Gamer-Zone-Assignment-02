@@ -303,6 +303,57 @@ font-family: 'Work Sans', sans-serif;
 
 /* End Play Instantly Continuer style */
 
+/* Start Play Games Online section style */
+
+.Play-game-Continuer {
+    padding: 0px 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.Play-game-Instantly-color{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.Play-game-Instantly-Continuer-text{
+    text-align: right;
+    width: 350px;
+    height: 200px;
+    align-items: center;
+
+}
+
+.Play-game-Instantly-Continuer-text h2{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.Play-game-Instantly-Continuer-text p{
+    color: var(--primary-text-color);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+
+.image-horch img{
+    width: 500px;
+}
+
+.baby-image{
+    width: 200px;
+    position: relative;
+    bottom: 100px;
+    left: 400px;
+}
+
+
+/* End Play Games Online section style */
+
 
 /* Start All Game Continuer Style */
 
