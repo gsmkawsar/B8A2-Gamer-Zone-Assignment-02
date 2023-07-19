@@ -111,8 +111,94 @@
 
 /* End Online Games continuer Style */
 
+
+
+
+/* Start All Game Continuer Style */
+
+
+
+.all-game{
+    padding: 20px 20px;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+
 }
-    
+    .image-horch img {
+        width: 250px;
+        height: 350px;
+    }
+
+.Play-Instantly-Continuer-text{
+    width: 250px;
+    height: 100px;
+
+ /* End All Game Continuer Style */   
+
+}
+
+/* Start footer section Style */
+footer{
+    padding: 10px 10px;
+    color: #FFF;
+    background-color: #0B0223;;
+}
+
+
+footer-item{
+    flex-direction: column;
+
+    padding: 10px;
+
+}
+
+.footer-item a{
+    text-decoration: none;
+    color: #FFF;
+    margin-right: 10px;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon p{
+    color: #FFF;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.footer-Privacy-Policy{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-Privacy-Policy a{
+    text-decoration: none;
+    margin-right: 1rem;
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.footer-copyright p{
+    margin-right: 0.5rem;
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+}
+
+
+
+}
 
 
      /* devices Tab 768px ) */
@@ -198,4 +284,15 @@
 }
 
 /* End Online Games continuer Style */
+
+
+/* Start All Game Continuer Style */
+
+.all-game{
+
+    grid-template-columns: repeat(3, 1fr);
+
+ /* End All Game Continuer Style */  
+
+}
 }

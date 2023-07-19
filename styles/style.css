@@ -225,7 +225,7 @@ font-family: 'Work Sans', sans-serif;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 30px 120px;
-    gap: 10px
+    row-gap: 20px;
 }
 .Online-Games-box{
     width: 240px;
@@ -243,6 +243,7 @@ font-family: 'Work Sans', sans-serif;
     margin-top: 10px;
 }
 
+
 /* #play:hover.Online-Games-box{
     background-image: url("/images/Rectangle\ 7.png");
     width: 240px;
@@ -251,3 +252,170 @@ font-family: 'Work Sans', sans-serif;
 
 
 /* End Online Games continuer Style */
+
+/* Start Play Instantly Continuer style */
+
+.Play-Continuer {
+    padding: 0px 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Play-Instantly-color{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.Play-Instantly-Continuer-text{
+    text-align: right;
+    width: 350px;
+    height: 200px;
+    align-items: center;
+
+}
+
+.Play-Instantly-Continuer-text h2{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.Play-Instantly-Continuer-text p{
+    color: var(--primary-text-color);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+
+.image-horch img{
+    width: 500px;
+}
+
+.baby-image{
+    width: 200px;
+    position: relative;
+    bottom: 100px;
+    right: 80px;
+}
+
+
+/* End Play Instantly Continuer style */
+
+
+/* Start All Game Continuer Style */
+
+.all-game{
+    padding: 30px 120px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    justify-items: center;
+
+}
+
+.games{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 20px;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 20px 20px 20px 10px;
+}
+.games img{
+    width: 45px;
+}  
+.games p{
+    margin-left: 10px;
+    color: #0B0223;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.games:hover{
+    border: 2px solid var(--primary-color);
+    padding: 18px 18px 18px 8px;
+    cursor: pointer;
+}
+
+
+/* End All Game Continuer Style */
+
+
+/* Start footer section Style */
+footer{
+    padding: 50px 120px;
+    color: #FFF;
+    background-color: #0B0223;;
+}
+
+
+.footer-logo-continuer{
+    display: flex;
+    font-size: 2rem;
+    font-weight: 700;
+    align-items: center;
+}
+
+.footer-continuer{
+        display: flex;
+        justify-content: center;
+
+    }
+.footer-logo-continuer img{
+    margin-right: 10px;
+    width: 60px;
+    height: 30px;
+}
+
+.footer-item{
+    text-align: center;
+    padding: 40px;
+}
+
+.footer-item a{
+    text-decoration: none;
+    color: #FFF;
+    margin-right: 40px;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon p{
+    color: #FFF;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+.footer-Privacy-Policy{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.footer-Privacy-Policy a{
+    text-decoration: none;
+    margin-right: 1rem;
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.footer-copyright p{
+    margin-right: 1rem;
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+}
+/* End footer section Style */
+
