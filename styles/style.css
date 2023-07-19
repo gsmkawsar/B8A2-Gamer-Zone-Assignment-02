@@ -17,6 +17,7 @@ font-family: 'Work Sans', sans-serif;
 :root{
     --primary-color: #F948B2;
     --primary-text-color: #3C354F;
+    --primary-linear-gradient-color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 }
 
 /* Start Nav Section Style */
@@ -75,4 +76,65 @@ font-family: 'Work Sans', sans-serif;
     font-size: 1rem;
     font-weight: 600;
 }
+
 /* End Nav Section Style */
+
+/* Start Banner Section Style  */
+    
+.banner-continuer{
+    background-image: url("/images/Group\ 14.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 120px;
+}
+
+.banner-continuer-img img{
+    width: 500px;
+}
+
+.banner-continuer h2{
+    color: #0B0223;
+    font-size: 2.5rem;
+    font-weight: 600;
+
+}
+
+.banner-continuer h1{
+    font-size: 5rem;
+    font-weight: 800;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.banner-continuer p{
+    color: var(--primary-text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.sign-in{
+    background-color: var(--primary-color);
+    border: 0;
+    border-radius: 48px;
+    padding: 21px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 20px 20px 0px;
+}
+
+.go{
+    padding: 21px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 48px;
+    border: 0;
+    background: #4EC5F7;
+}
+
+/* End Banner Section Style */
