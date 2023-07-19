@@ -91,10 +91,25 @@
     padding: 10px 20px;
 }
 
-
-
-
 /* End gamer continuer Style */
+
+.Online-Games-text h3{
+    font-size: 1.3rem;
+}
+
+.Online-Games-text p{
+    font-size: 0.6rem;
+}
+/* Start Online Games continuer Style */
+
+.Online-Games-continuer{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px 10px;
+    justify-items: center;
+
+}
+
+/* End Online Games continuer Style */
 
 }
     
@@ -173,4 +188,14 @@
 
 /* End gamer continuer Style */   
 
+
+/* Start Online Games continuer Style */
+
+.Online-Games-continuer{
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+
+}
+
+/* End Online Games continuer Style */
 }

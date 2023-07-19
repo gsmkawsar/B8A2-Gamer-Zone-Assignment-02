@@ -82,6 +82,7 @@ font-family: 'Work Sans', sans-serif;
 /* Start Banner Section Style  */
     
 .banner-continuer{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     background-image: url("/images/Group\ 14.png");
     background-repeat: no-repeat;
     display: flex;
@@ -108,7 +109,6 @@ font-family: 'Work Sans', sans-serif;
 .banner-continuer h1{
     font-size: 5rem;
     font-weight: 800;
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     color: transparent;
     -webkit-background-clip: text;
@@ -192,3 +192,62 @@ font-family: 'Work Sans', sans-serif;
 
 }
 /* End gamer continuer Style */
+
+
+
+/* Start Online Games continuer Style */
+
+.Funny-Videos-text{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+
+.Online-Games-text h3{
+    text-align: center;
+    color: var(--primary-text-color);
+    margin: 50px 0px 10px 0px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.Online-Games-text p{
+    text-align: center;
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.Online-Games-continuer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px 120px;
+    gap: 10px
+}
+.Online-Games-box{
+    width: 240px;
+    height: 350px;
+}
+
+.Online-Games-box img{
+    width: 240px;
+    height: 300px;
+}
+.Online-Games-box p{
+    color: var(--primary-text-color);
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+/* #play:hover.Online-Games-box{
+    background-image: url("/images/Rectangle\ 7.png");
+    width: 240px;
+    height: 350px;
+} */
+
+
+/* End Online Games continuer Style */
