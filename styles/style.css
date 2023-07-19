@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,700&family=Poppins:ital,wght@0,400;0,600;0,700;1,800&family=Work+Sans:wght@300;400;600;700;800&display=swap');
+
+
+
+body{
+font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --primary-color: #F948B2;
+    --primary-text-color: #3C354F;
+}
+
+/* Start Nav Section Style */
+
+.nav-continuer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 120px;
+}
+
+.G-titel{  
+    color: var(--primary-color); 
+}
+.nav-logo-continuer{
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.nav-logo-continuer img{
+    margin-right: 10px;
+    width: 50px;
+    height: 25px;
+}
+
+
+.nav-item-continuer ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-item-continuer a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 20px;
+    color: var(--primary-text-color);
+    font-size: 1rem;
+    font-weight: 600;
+}
+.nav-item-continuer .follow{
+    display: flex;
+    width: 230px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-sosal-icon{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+/* End Nav Section Style */
